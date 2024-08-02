@@ -82,6 +82,10 @@ let fetchUrl = async() => {
     let addToCartCollec = collection(db, "NewCart");
 document.querySelectorAll('.add_to_cart').forEach(btn => {
     btn.addEventListener('click', async () => {
+        document.querySelector('.cartPopUp').style.display = 'flex';
+        setTimeout(() => {
+            document.querySelector('.cartPopUp').style.display = 'none';
+        }, 1000)
         try {
             const currentUser = sessionStorage.getItem('displayName');
             const docRef = await addDoc(addToCartCollec, {
