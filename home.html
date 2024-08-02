@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Assest/Css/home.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav1">
+        <div class="emailEtc">
+            <div class="email_area"><i class="fa-solid fa-envelope"></i> etc@gmail.com</div>
+            <div class="phone_area"><i class="fa-solid fa-phone"></i> +92-319-3961062</div>
+        </div>
+            <span></span>
+    </div>
+
+    <nav>
+        <a href="/" class="navLogo">
+            <h1>Logo</h1>
+        </a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#mensCollection">Men's Collection</a></li>
+            <li><a href="#womensCollection">Womem's Collection</a></li>
+            <li><a href="#jwellery">Jwellery</a></li>
+            <li><a href="#electronics">Electronics</a></li>
+        </ul>
+
+        <div class="toggleBox">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- <header></header> -->
+<div class="all">
+
+    <header class="main" id="home">
+        <div class="content">
+            <h1 class="greet">Hello World!</h1>
+            <div class="context">
+                <h2 class="intro">We're<strong class="mainIntro"> Provide</strong></h2>
+            <div><span id="element" class="element"></span></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- section /About/ <-->
+
+    <section id="about">
+        <h1 class="topHeading">About</h1>
+
+        <div class="sec">
+            <div class="about_img">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.td1IHghin7QXdinsba9o1wHaFj&pid=Api&P=0&h=220" alt="">
+            </div>
+            <div class="about_text">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum cum est sapiente quas blanditiis placeat, cupiditate beatae! Soluta, commodi aut dicta est repudiandae natus nulla mollitia ab quisquam, non cupiditate.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="mensCollection">
+        <h1 class="topHeading">Men's Collection</h1>
+
+        <div class="sec"></div>
+    </section>
+
+    <section id="womensCollection">
+        <h1 class="topHeading">Women's Collection</h1>
+
+        <div class="sec"></div>
+    </section>
+
+    <section id="jwellery">
+        <h1 class="topHeading">Jwellery</h1>
+
+        <div class="sec"></div>
+    </section>
+
+    <section id="electronics">
+        <h1 class="topHeading">Electronics</h1>
+
+        <div class="sec"></div>
+    </section>
+</div>
+
+
+    <div class="openArea">
+        <i class="fa-solid fa-xmark"></i>
+        <img src="./Assest/Img/header_bg.jpg" alt="">
+        <div class="detailsBar">
+            <div class="title"></div>
+            <div class="description"></div>
+            <div class="category"></div>
+            <div class="rating"></div>
+            <div class="btns">
+                <button>Buy Now</button>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <i class="fa-solid fa-shopping-bag"></i>
+    <i class="fa-solid fa-right-from-bracket"></i>
+    <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+
+
+    <div class="cart">
+        <div class="cartTop"><h1>Shopping Cart</h1></div>
+    </div>
+
+
+    <script src="./Assest/Js/home.js" type="module"></script>
+
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    let typed = new Typed('#element', {
+        strings: ["Men's Cothes Collection", "Women's Cothes Collection", "Best Electronic Items Collection", "A<sup>1</sup> Jwellery Collection"],
+        typeSpeed: 80,
+        backSpeed: 80,
+        loop: true,
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
