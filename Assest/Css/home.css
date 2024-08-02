@@ -455,20 +455,21 @@ p{
         position: absolute;
         background-color: #000000ab;
         top: 8vh;
-        right: -100%;
+        right: 0;
         box-shadow: 1px 1px 12px #fff inset;
         padding: 30px 20px;
+        display: none;
         transition: all 400ms ease;
     }
     .show{
-        right: 0;
+        display: flex;
     }
     .toggleBox{
         display: block;
     }
-    #about{
+    /* #about{
         display: none;
-    }
+    } */
     .openArea{
         flex-direction: column;
     }
@@ -483,6 +484,15 @@ p{
     }
     .cart{
         width: 80%;
+    }
+    #about .sec{
+        flex-direction: column;
+    }
+    #about .about_img{
+        width: 100%;
+    }
+    #about .about_text{
+        width: 100%;
     }
 }
 

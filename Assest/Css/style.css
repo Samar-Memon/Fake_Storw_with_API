@@ -96,3 +96,9 @@ a{
     background-color: #ccc;
     color: #000000ab;
 }
+
+@media (max-width: 600px) {
+    #withGoogle{
+        font-size: 17px;
+    }
+}
